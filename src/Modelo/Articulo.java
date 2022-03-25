@@ -12,7 +12,7 @@ public class Articulo {
         this.descripcion = descripcion;
         this.precioCompra = precioCompra;
         this.precioVenta = precioVenta;
-        this.numeroUnidades = 0;
+        this.numeroUnidades = numeroUnidades;
     }
 
     public  Articulo(String codigo, String descripcion, double precioCompra, double precioVenta){
